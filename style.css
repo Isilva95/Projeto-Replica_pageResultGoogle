@@ -1,0 +1,154 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  background: #FFFFFF;
+  top: 0%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+.header_one {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+.search_camp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #BBBBBB;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+.search_camp:hover {
+  box-shadow: 0px 1px 5px #BBBBBB;
+}
+.search_camp button {
+  border: 0 none;
+  background-color: #FFFFFF;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.search_input input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  width: 35rem;
+  padding-left: 1rem;
+  font-size: 15px;
+}
+.search_input input::placeholder {
+  color: #000000;
+}
+.search_support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.header_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu {
+  display: flex;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  border-bottom: 1px solid #BBBBBB;
+  padding-top: 5rem;
+}
+nav ul,
+nav li {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+nav ul {
+  margin-left: 9rem;
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  padding: 1rem;
+  color: #777777;
+}
+nav .active {
+  color: #0000FF;
+  border-bottom: 3px solid #0000FF;
+}
+nav a:hover {
+  color: #0000FF;
+}
+
+section {
+  margin-left: 10rem;
+}
+section p {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.result {
+  margin-bottom: 2rem;
+}
+.total {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.title {
+  margin-bottom: 0.5rem;
+}
+.title a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1A0DAB;
+}
+.title a:hover {
+  text-decoration: underline;
+}
+.link a {
+  font-size: 14px;
+  color: #006621;
+  text-decoration: none;
+}
+.text h1 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.related ul, li {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+.related a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
